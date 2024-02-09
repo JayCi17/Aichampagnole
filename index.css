@@ -1,0 +1,115 @@
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    padding: 2vh;
+}
+
+.description {
+    background: darkgray;
+    color: white;
+    text-align: center;
+    padding: 2vh;
+}
+
+.description h1 {
+    margin-bottom: 0;
+}
+
+.description h2 {
+    margin-top: 0;
+}
+
+.description p {
+    font-size: 2.5vh;
+}
+
+.description a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.description button {
+    padding: 1vh;
+}
+
+.horaire {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 3vh;
+}
+
+.horaire h3 {
+    text-align: center;
+}
+
+.tableau {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    /* Une colonne pour les jours et une pour les horaires */
+    gap: 165px;
+    justify-items: center;
+    /* Espacement entre les colonnes */
+}
+
+.jours {
+    margin-left: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.horaires {
+    display: flex;
+    flex-direction: column;
+}
+
+.jours p,
+.horaires p {
+    margin: 5px 0;
+    /* Espacement entre chaque élément */
+}
+
+.jours p {
+    text-align: right;
+    /* Alignement des jours à droite */
+}
+
+.lieu {
+    padding: 2vh;
+    border-top: 1vh solid grey;
+    text-align: center;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lieu button {
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.lieu a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.reseau_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer i {
+    font-size: 8vh;
+}
+
+.fa-instagram {
+    color: blueviolet;
+}
