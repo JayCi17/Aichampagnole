@@ -1,11 +1,13 @@
 header {
-    background-color: grey;
+    background-image: url('https://scontent.fctt1-1.fna.fbcdn.net/v/t39.30808-6/418845701_122106384992174226_4484644443912564490_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_ohc=Zw1y0iADPWoAX-LK0eD&_nc_ht=scontent.fctt1-1.fna&oh=00_AfDJarirg3mGWLtIDU1tYmWmffjjGwv9ajN2sLqS8os-sA&oe=65CFD171');
+    background-size: contain;
     display: flex;
     justify-content: center;
 }
 
 header img {
-    padding: 2vh;
+    padding: 3vh;
+    width: 50%;
 }
 
 .description {
